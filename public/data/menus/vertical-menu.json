@@ -1,0 +1,92 @@
+{
+  "menu": [
+    {
+      "url": "admin",
+      "name": "Dashboard",
+      "i18n": "Dashboard",
+      "icon": "desktop"
+    },
+    {
+      "url": "#",
+      "name": "User ManageMent",
+      "i18n": "User ManageMent",
+      "icon": "user",
+      "submenu": [
+        {
+          "url": "admin/add-user",
+          "name": "Add User",
+          "i18n": "Add User",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "admin/users",
+          "name": "Manage User",
+          "i18n": "Manage User",
+          "icon": "bx bx-right-arrow-alt"
+        }
+      ]
+    },
+    {
+      "url": "#",
+      "name": "Product Management",
+      "i18n": "Product Management",
+      "icon": "thumbnails-big",
+      "submenu": [
+        {
+          "url": "admin/categories",
+          "name": "Categories",
+          "i18n": "Categories",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "admin/products",
+          "name": "Products",
+          "i18n": "Products",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "admin/coupons",
+          "name": "Coupons",
+          "i18n": "Coupons",
+          "icon": "bx bx-right-arrow-alt"
+        }
+      ]
+    },
+    {
+      "url": "#",
+      "name": "Order Management",
+      "i18n": "Order Management",
+      "icon": "notebook"
+    },
+    {
+      "url": "#",
+      "name": "Reviews & Rating",
+      "i18n": "Reviews & Rating",
+      "icon": "star"
+    },
+    {
+      "url": "#",
+      "name": "Testimonial",
+      "i18n": "Testimonial",
+      "icon": "like"
+    },
+    {
+      "url": "#",
+      "name": "Slider Management",
+      "i18n": "Slider Management",
+      "icon": "morph-stack"
+    },
+    {
+      "url": "#",
+      "name": "Site Setting",
+      "i18n": "Site Setting",
+      "icon": "gear"
+    },
+    {
+      "url": "#",
+      "name": "Blog Management",
+      "i18n": "Blog Management",
+      "icon": "pen"
+    }
+  ]
+}
